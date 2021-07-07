@@ -12,7 +12,7 @@ const tailwindcss = require('tailwindcss');
  |
  */
 
-mix.ts('resources/js/app.ts', 'public/ts')
+mix.ts('resources/js/app.ts', 'public/js')
     .vue()
     .sass('resources/sass/app.scss', 'public/css').options({
         postCss: [
